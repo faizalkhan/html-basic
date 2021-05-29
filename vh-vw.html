@@ -5,31 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+     /*  50VW  view width is depend on the parent div elements  percentage */
+    /*  50%  percentage is depend on the parent div elements */
+    /*
+     h1
+     {
+         border: solid 2px green;
+         width: 100vw;
+     }
+     .box
+     {
+        border: solid 2px red;
+        width: 50%;
+     }
+*/
+
+.box
+     {
+        border: solid 2px red;
+        height: 100vh;
+      
+     }
+    </style>
 </head>
-<style>
-
-/*https://www.youtube.com/watch?v=tcBRvjYw5xQ*/
-    html{
-        /*font-size: 62.5%;*/
-        font-size: 10px;
-    }
-
-    div {
-        background-color: red;
-        font-size:20px;
-        width: 30rem;  /* Rem is based on parent div font-size. If we give font size : 10px. 1 rem is equal to 10px; Default 1 rem value is
-        16px;
-        
-        */
-    }
-    p
-    {
-        font-size:2rem;
-    }
-</style>
 <body>
-    <div> 
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+    
+    <div class="box"></div>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
         molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
         numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
         optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
@@ -39,6 +42,6 @@
         quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
         sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
         recusandae alias error harum maxime adipisci amet laborum. Perspiciatis 
-        minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </p>  </div>
+        minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit</p>
 </body>
 </html>
